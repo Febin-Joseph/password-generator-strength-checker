@@ -19,3 +19,19 @@ for a secured password and if the user entered password is not strong it will gi
 # if the password is strong the output will be 
 
 ![Screenshot 2023-08-01 141026](https://github.com/Febin-Joseph/password-generator-strength-checker/assets/128711401/aeb7e002-4de0-44a1-9dfe-dfc9b638e243)
+
+
+
+| value         | Type     | Default Value  | Description                                                       |
+| -----------   | -------- | -------------- | ----------------------------------------------------------------- |
+| uppercase     | Boolean  | true           | Whether the password must contain at least one uppercase letter.  |
+| lowercase     | Boolean  | true           | Whether the password must contain at least one lowercase letter.  |
+| digits        | Boolean  | true           | Boolean. Whether the password must contain at least one number.   |  
+| specialChars  | Boolean  | true           | Whether the password must contain at least one special charecter. |
+| minLength     | Number   | 8              | Number. The minimum length of the password.                       |
+
+
+#### The **getPasswordStrength** function returns an object with two properties:
+- `messages`: An array of strings containing messages for each criterion that the password does not meet.
+- `strength`: A string indicating the strength of the password. Possible values are "Weak", "Moderate", and "Strong".
+- `suggestion`: Generates random password if the user doesn't meet the criteria.The generated password always will be strong
