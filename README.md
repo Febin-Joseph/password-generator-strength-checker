@@ -21,6 +21,8 @@ for a secured password and if the user entered password is not strong it will gi
 ![Screenshot 2023-08-01 141026](https://github.com/Febin-Joseph/password-generator-strength-checker/assets/128711401/aeb7e002-4de0-44a1-9dfe-dfc9b638e243)
 
 
+#Bonus idea of the Package
+
 
 | value         | Type     | Default Value  | Description                                                       |
 | -----------   | -------- | -------------- | ----------------------------------------------------------------- |
